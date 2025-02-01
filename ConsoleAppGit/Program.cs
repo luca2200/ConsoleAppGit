@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            
+           Dado dado = new Dado();
+           int valore = dado.LanciaDado();
+           Console.WriteLine(valore);
         }
     }
 }
